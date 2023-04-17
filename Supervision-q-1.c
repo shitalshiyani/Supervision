@@ -15,6 +15,7 @@ main()
 		printf("Enter Data=");
 		gets(data);
 		fputs("\n",p);
+		fputs(data,p);
 		printf("Data Enter Successfully....");
 	}
 	fclose(p);
